@@ -1,0 +1,131 @@
+@charset "utf-8";
+/*reset*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video, input {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline
+}
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {
+	-webkit-text-size-adjust: none
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block
+}
+body {
+	font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;
+}
+ol, ul {
+	list-style: none
+}
+blockquote, q {
+	quotes: none
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none
+}
+ins {
+	text-decoration: none
+}
+del {
+	text-decoration: line-through
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+fieldset, img {
+	border: 0;
+}
+img {
+	max-width: 100%;
+	vertical-align: top;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+ol, ul {
+	list-style: none;
+}
+a, a:link {
+	text-decoration: none;
+	outline: none;
+	-webkit-touch-callout: none; /*禁止用户iPhone打开新页面*/
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+a:visited {
+}
+a:active, a:hover {
+	text-decoration: none;
+}
+a:focus {
+	outline: none;
+}
+a:link, a:visited {
+}
+caption, th {
+	text-align: left;
+}
+q:before, q:after {
+	content: '';
+}
+abbr, acronym {
+	border: 0;
+	font-variant: normal;
+}
+sup {
+	vertical-align: text-top;
+}
+sub {
+	vertical-align: text-bottom;
+}
+input, textarea, select {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}
+.clearfix:after {
+	content: '\20';
+	display: block;
+	height: 0;
+	clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+.clear {
+	clear: both;
+}
+.textCenter {
+	text-align: center;
+}
+.textLift {
+	text-align: left;
+}
+.textRight {
+	text-align: right;
+}
+.inner {
+	display: inline-block;
+    *display:inline;
+    *zoom:1;
+}
+.relative {
+	position: relative;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.none {
+	float: none;
+} 
